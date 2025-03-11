@@ -1,6 +1,5 @@
 import { ethers } from 'ethers';
-import logo from '../assets/logo.svg';
-
+import logo from '../assets/tw.jpeg';
 const Navigation = ({ account, setAccount }) => {
     const connectHandler = async () => {
         const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
@@ -17,8 +16,11 @@ const Navigation = ({ account, setAccount }) => {
             </ul>
 
             <div className='nav__brand'>
-                <img src={logo} alt="Logo" />
-                <h1>Millow</h1>
+                <img src={logo} alt="logo"  />
+                <div className="container">
+    <h2 className="animated-text"></h2>
+           </div>
+
             </div>
 
             {account ? (
