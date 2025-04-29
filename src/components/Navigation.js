@@ -1,6 +1,5 @@
 import { ethers } from 'ethers';
-import logo from '../assets/logo.svg';
-
+import logo from '../assets/fos.jpg';
 const Navigation = ({ account, setAccount }) => {
     const connectHandler = async () => {
         const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
@@ -11,14 +10,19 @@ const Navigation = ({ account, setAccount }) => {
     return (
         <nav>
             <ul className='nav__links'>
-                <li><a href="#">Buy</a></li>
-                <li><a href="#">Rent</a></li>
-                <li><a href="#">Sell</a></li>
+                <li><a href="https://ubyer.netlify.app">Buy</a></li>
+                <li><a href="https://isnpector.netlify.app">Rent</a></li>
+                <li><a href="https://esller.netlify.app">Sell</a></li>
+                <br>
+                </br>
+               <h1 class="ti">DIGGI DOCC</h1> 
+                <br>
+                </br>
             </ul>
-
+            
             <div className='nav__brand'>
-                <img src={logo} alt="Logo" />
-                <h1>Millow</h1>
+                <img src={logo} alt="logo"  />
+
             </div>
 
             {account ? (

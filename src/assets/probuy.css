@@ -1,0 +1,173 @@
+body
+{
+	background:linear-gradient(to right,#7f00ff,#e100ff);
+}
+
+
+h1
+{
+	color:black;
+	font-weight:bold;
+	background:linear-gradient(to right,#7f00ff,#F7A7E8,#e100ff);
+	
+	padding:30px;
+	margin-left:-20px;
+	margin-top:-8px;
+	
+	
+	
+}
+.buy1
+{
+	margin-left:10px;
+	height:320px;
+	width:520px;
+	margin-top:50px;
+	margin-left:50px;
+	box-shadow:10px 15px 20px black;
+	border-radius:10px;
+	
+}
+.buy1:hover
+{
+border:30px solid rgba(250,250,250,1.8);
+transform:scale(1.8);
+margin:0px 0px 0px 350px;
+position:absolute;
+}
+.buy2
+{
+	margin-left:0px;
+	height:320px;
+	width:520px;
+	position:absolute;
+	margin-top:600px;
+	margin-left:-530px;
+	box-shadow:10px 15px 20px black;
+	border-radius:10px;
+}
+.buy2:hover
+{
+border:20px solid rgba(250,250,250,1.9);
+transform:scale(1.8);
+margin:600px 0px 0px -230px;
+position:absolute;
+}
+.buy3
+{
+	margin-top:1200px;
+	height:400px;
+	width:350px;
+	position:absolute;
+	margin-left:-530px;
+	box-shadow:10px 15px 20px black;
+	border-radius:10px;
+}
+.buy3:hover
+{
+border:20px solid rgba(0,0,0,1.8);
+transform:scale(1.8);
+position:absolute;
+margin:1200px 0px 0px -150px;
+}
+.one
+{
+	margin:0px 0px 0px 600px;
+	text-align:left;
+	max-width:400px;
+	color:silver;
+	background-color:black;
+	padding:15px;
+	border-radius:0px 25px 25px 25px;
+	font-size:20px;
+	font-weight:bold;
+	box-shadow:10px 5px 10px #7f00ff;
+	
+}
+.two
+{
+	margin:400px 0px 0px 600px;
+	text-align:left;
+	max-width:400px;
+	color:silver;
+	background-color:black;
+	padding:15px;
+	border-radius:0px 25px 25px 25px;
+	font-size:20px;
+	font-weight:bold;
+	box-shadow:10px 5px 10px #7f00ff;
+	
+}
+.Three{
+	margin:500px 0px 0px 450px;
+	text-align:left;
+	max-width:500px;
+	color:silver;
+	background-color:black;
+	padding:15px;
+	border-radius:0px 25px 25px 25px;
+	font-size:20px;
+	font-weight:bold;
+	box-shadow:10px 5px 10px #7f00ff;
+}
+.buy4{
+	margin-top:2000px;
+	height:300px;
+	width:530px;
+	position:absolute;
+	margin-left:-530px;
+	box-shadow:10px 15px 20px black;
+	border-radius:10px;
+}
+.buy4:hover
+{
+border:20px solid black;
+transform:scale(1.8);
+margin:1800px 0px 0px -230px;
+position:absolute;
+}
+.four{
+	margin:490px 0px 0px 600px;
+	text-align:left;
+	max-width:500px;
+	color:silver;
+	background-color:black;
+	padding:15px;
+	border-radius:0px 25px 25px 25px;
+	font-size:20px;
+	font-weight:bold;
+	box-shadow:10px 5px 10px #7f00ff;
+}
+.buy5{
+	margin-top:2700px;
+	height:300px;
+	width:530px;
+	position:absolute;
+	margin-left:-530px;
+	box-shadow:10px 15px 20px black;
+	border-radius:10px;
+}
+.buy5:hover
+{
+border:20px solid black;
+transform:scale(1.8);
+margin:2500px 0px 0px -230px;
+position:absolute;
+}
+.five{
+	margin:520px 0px 0px 600px;
+	text-align:left;
+	max-width:500px;
+	color:silver;
+	background-color:black;
+	padding:15px;
+	border-radius:0px 25px 25px 25px;
+	font-size:20px;
+	font-weight:bold;
+	box-shadow:10px 5px 10px #7f00ff;
+}
+.al
+{
+	background-color:blue;
+}
+
